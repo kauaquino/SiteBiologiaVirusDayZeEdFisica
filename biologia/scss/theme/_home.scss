@@ -79,13 +79,7 @@
 
 //--------- Start Banner Area -------------//
 
-.banner-area {
-	background:url(../img/header-bg.jpg) center;
-	background-size:cover;
-	.overlay-bg{
-		background-color:rgba($primary-color,.9); 
-	}
-}
+
 .banner-content {
 	margin-top:-90px;
 	text-align:center;
@@ -216,7 +210,7 @@
 	    background: rgba(127,127,127, 0.5);
 	    margin-left: 5px;
 	    margin-right: 5px;
-	    @inlcude transition();
+	    @include transition();
 	}
 
 	.owl-dot.active {
@@ -550,7 +544,7 @@
 	    background: rgba(127,127,127, 0.5);
 	    margin-left: 5px;
 	    margin-right: 5px;
-	    @inlcude transition();
+	    @include transition();
 	}
 
 	.owl-dot.active {
@@ -778,9 +772,7 @@
 
 .about-generic-area {
 	background: $white;
-	.border-top-generic {
 
-	}
 	p {
 		margin-bottom: 20px;
 	}
