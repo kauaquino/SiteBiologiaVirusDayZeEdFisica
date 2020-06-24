@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+
+
+</head>
+<body>
+    <select class="js-data-example-ajax" id="teste">
+        <option value="AL">Alabama</option>
+        <option value="WY">Wyoming</option>
+    </select>
+
+
+      <script>
+        $(document).ready(function() {
+    $('.js-data-example-ajax').select2();
+});
+      </script>
+</body>
+</html>
