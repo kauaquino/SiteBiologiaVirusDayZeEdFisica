@@ -10,9 +10,32 @@
 	font-style: normal;
 }
 
+p{
+	color: rgb(243, 241, 241);
+}
+#segundo{
+	border-radius: 50px;
+	padding: 10%;
+	background-color: #136f63;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#primeiro{
+	border-radius: 50px;
+	padding: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color:#22aaa1;
+}
+.alinhadoEsquerda{
+	text-align: left;
+}
+strong{
+	color: #041b15
+}
 .lnr {
 	font-family: 'Linearicons-Free';
-	speak: none;
+	
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -23,7 +46,10 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+.imagens{
+	position: relative;
+	width: 100%;
+}
 .lnr-home:before {
 	content: "\e800";
 }
